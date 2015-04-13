@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">appAB</string>
+    <string name="product_num">产品编号</string>
+    <string name="description">描述</string>
+    <string name="maxstringhint">最多20个字</string>
+    <string name="addcolor">添加产品颜色</string>
+    <string name="recommend">推荐给客户</string>
+    <string name="boss_recommend">店长推荐</string>
+    <string name="create_done">完成</string>
+    <string name="price">价格</string>
+    <string name="search">搜索</string>
+    <string name="homepage">首页</string>
+    <string name="customer_manage">客户管理</string>
+    <string name="myshop">我的店铺</string>
+    <string name="order_manage">订单管理</string>
+    <string name="sell_statistics">销售统计</string>
+    <string name="shopname">店铺名称</string>
+    <string name="hotproduct">热卖展示</string>
+    <string name="classfylist">分类列表</string>
+    <string name="createproduct">创建产品</string>
+    <string name="productname">"商品名称"</string>
+    <string name="nulldata">"暂无商品"</string>
+    <string name="product_picture">"商品图片"</string>
+    <string name="addmore">"更多"</string>
+    <string name="productprice">"商品价格:"</string>
+      <string name="productinventory">"商品库存:"</string>
+       <string name="productsize">"商品尺码:"</string>
+    <string name="productdescription_hint">"请输入商品描述"</string>
+    <string name="productprice_hint">"请输入商品价格"</string>
+    <string name="product_size_hint">"请输入商品尺码"</string>
+        <string name="product_inventory_hint">"请输入商品库存"</string>
+ <string name="choose_product_classfy">"请选择商品分类"</string>
+ <string name="choose_recommend_custom">"请选择推荐客户"</string>
+ <string name="order_search_hint">"快速搜索 单号、日期、电话、产品名称、微信号"</string>
+ <string name="pending_orders">"待处理"</string>
+ <string name="pending_pay">待付款</string>
+ <string name="order_done">"已完成"</string>
+ <string name ="setting">"设置"</string>
+  <string name ="icon">"头像"</string>
+    <string name ="area">"地区"</string>
+     <string name ="message">"消息"</string>
+      <string name ="classifypreset">"分类预设"</string>
+      <string name="colorpreset">"颜色预设"</string>
+      <string name ="sizepreset">"尺码预设"</string>
+     <string name="moneypreset">"货币预设"</string>
+        <string name="exit">"退出"</string>
+</resources>

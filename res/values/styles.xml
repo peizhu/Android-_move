@@ -1,0 +1,45 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:style/Theme.Light.NoTitleBar" />
+
+    <style name="AppTranspartentTheme" parent="android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    <!-- 设置Activity进入退出动画 -->
+    <style name="MyTheme" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+    </style>
+    <!-- Standard animations for a full-screen window or activity. -->
+    <style name="ActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/push_right_in_register</item>
+        <!-- 打开activity，设置当前activity进入展示动画 -->
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out_register</item>
+        <!-- 打开activity，设置上个activity离开动画 -->
+        <item name="android:activityCloseEnterAnimation">@anim/back_left_in</item>
+        <!-- 结束activity，设置上个activity进入动画 -->
+        <item name="android:activityCloseExitAnimation">@anim/back_right_out</item>
+        <!-- 结束activity，设置当前activity离开动画 -->
+    </style>
+
+    <style name="Theme.LeftEnter" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/EnterAnimation</item>
+    </style>
+
+    <style name="EnterAnimation">
+        <item name="android:windowEnterAnimation">@anim/left_in</item>
+        <item name="android:windowExitAnimation">@anim/left_out</item>
+    </style>
+    <style name="popupwindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <!-- 首页viewpage -->
+    <style name="viewpage">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_46_160</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:layout_marginTop="@dimen/width_5_160"
+    android:orientation="vertical" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/common_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:gravity="center"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:dividerPadding="@dimen/width_5_160"
+        android:verticalSpacing="@dimen/width_10_160"
+        android:divider="@color/transparent"
+        android:listSelector="@color/transparent"
+        ptr:ptrAnimationStyle="flip" >
+    </com.handmark.pulltorefresh.library.PullToRefreshGridView>
+<TextView 
+    android:id="@+id/footView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_10_160"
+    android:text="@string/addmore"
+    android:gravity="center"
+    android:background="@color/gainsboro"
+    android:layout_alignParentBottom="true"
+    />
+</RelativeLayout>

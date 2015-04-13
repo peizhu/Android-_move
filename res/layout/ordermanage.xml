@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/width_5_160"
+        android:gravity="center"
+        android:text="@string/order_manage"
+        android:textColor="@color/black"
+        android:textSize="@dimen/medium_font_size" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_3_160"
+        android:background="@color/little_gray" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/width_5_160" >
+
+        <LinearLayout
+            android:layout_width="@dimen/width_125_160"
+            android:layout_height="@dimen/height_10_160"
+            android:background="@color/little_gray"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/order_search_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:hint="@string/order_search_hint"
+                android:padding="@dimen/width_3_160"
+                android:textSize="@dimen/small_font_size" />
+
+            <View
+                android:layout_width="@dimen/width_120_160"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/search_edittext_icon" />
+    </RelativeLayout>
+<RadioGroup
+        android:id="@+id/order_radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/width_20_160"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/pending_orders"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/pending_orders" 
+            android:textColor="@color/red"/>
+
+        <RadioButton
+            android:id="@+id/pending_pay"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/pending_pay" />
+
+        <RadioButton
+            android:id="@+id/order_done"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/order_done" />
+    </RadioGroup>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_3_160"
+        android:background="@color/little_gray" />
+     <FrameLayout
+        android:id="@+id/order_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+</LinearLayout>

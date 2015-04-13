@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_8_160"
+        android:background="@color/little_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/width_5_160"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/common_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/width_5_160"
+            android:background="@color/gray"
+            android:src="@drawable/common_back_normal" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/setting" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_3_160"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/icon" />
+
+    <View
+        android:layout_width="@dimen/width_150_160"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/shopname" />
+
+    <View
+        android:layout_width="@dimen/width_150_160"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/area" />
+
+    <View
+        android:layout_width="@dimen/width_150_160"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/message" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_3_160"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/classifypreset" />
+
+    <View
+        android:layout_width="@dimen/width_150_160"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/colorpreset" />
+
+    <View
+        android:layout_width="@dimen/width_150_160"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/sizepreset" />
+
+    <View
+        android:layout_width="@dimen/width_150_160"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/moneypreset" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_3_160"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/little_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_5_160"
+        android:text="@string/exit" />
+
+</LinearLayout>
